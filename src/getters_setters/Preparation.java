@@ -58,7 +58,8 @@ public class Preparation {
 		recette1.getUstensile2().setNomUstensile("poêle");
 		recette1.afficherUstensiles();
 		
-		
+		System.out.println("Les " + recette1.getNomDuPlat() + " :\r\n" + 
+				"Mélanger la "+ recette1.getIngredient2().getNomIngredient()  +", la "+ recette1.getIngredient3().getNomIngredient()  + ", la " + recette1.getIngredient6().getNomIngredient() + ", une pincée de " + recette1.getIngredient7().getNomIngredient() + ", une pincée de " + recette1.getIngredient8().getNomIngredient() + " puis ajouter l’" + recette1.getIngredient4().getNomIngredient() + ", le " + recette1.getIngredient1().getNomIngredient() + ", l’" + recette1.getIngredient5().getNomIngredient() + " en mélangeant bien après chaque ajout.\r\n" + "Cuire à la " + recette1.getUstensile2().getNomUstensile() + " dans un peu de " + recette1.getIngredient9().getNomIngredient() + ", lorsque des petits trous apparaissent c’est que la première face est cuite vous pouvez retourner le blinis pour dorer la seconde face.");
 
 	}
 

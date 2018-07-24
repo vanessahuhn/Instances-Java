@@ -14,12 +14,12 @@ public class Application
 		
 		//j'essaie d'accède à la valeur de la variable firstName
 		//Eclipse renvoie un message d'erreur car la variable n'est pas visible hors de sa classe
-		cuisineSimplon.firstName;
+		//cuisineSimplon.firstName;
 		//pour y accéder, j'utilise la méthode getter getFirstName()
 		//qui retourne la valeur de la variable firstName
 		cuisineSimplon.getFirstName();
 		//j'essaie de modifier la valeur de la variable firstName
-		cuisineSimplon.firstName = "Vanessa";
+		//cuisineSimplon.firstName = "Vanessa";
 		//pour la modifier, j'utiliser la méthode setter de setFirstName()
 		//qui modifie la valeur de la variable firstName
 		cuisineSimplon.setFirstName("Vanessa");
@@ -36,8 +36,7 @@ public class Application
 		Cuisine cuisinePierre = new Cuisine();
 		
 		cuisinePierre.cup = "Peter Pan mug";
-		cuisinePierre.setCup("Peter Pan mug");
-		cuisinePierre.firstName = "Pierre";
+		cuisinePierre.setFirstName("Pierre");
 		
 		returnCoffee = cuisinePierre.coffeeMachine("colombian coffee", "Cristaline", "ON");
 		
@@ -46,7 +45,7 @@ public class Application
 		Cuisine cuisineAthanasia = new Cuisine();
 		
 		cuisineAthanasia.cup = "Tinker Bell mug";
-		cuisineAthanasia.firstName = "Athanasia";
+		cuisineAthanasia.setFirstName("Athanasia");
 		
 		returnCoffee = cuisineAthanasia.coffeeMachine("arabica", "Volvic", "ON");
 		
